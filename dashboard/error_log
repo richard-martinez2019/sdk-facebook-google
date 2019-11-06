@@ -1,0 +1,76 @@
+[23-Sep-2019 15:37:22 America/Santiago] PHP Notice:  Undefined index: user_nombre in /home/hostingg/public_html/accionesjudiciales/dashboard/inc/_barra_top.php on line 129
+[23-Sep-2019 15:37:27 America/Santiago] PHP Notice:  Undefined variable: title in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/list-servicios.php on line 38
+[23-Sep-2019 15:37:27 America/Santiago] PHP Notice:  Undefined variable: title in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/list-servicios.php on line 48
+[23-Sep-2019 15:37:38 America/Santiago] PHP Warning:  include(themes/list-articulos.php): failed to open stream: No such file or directory in /home/hostingg/public_html/accionesjudiciales/dashboard/index.php on line 156
+[23-Sep-2019 15:37:38 America/Santiago] PHP Warning:  include(themes/list-articulos.php): failed to open stream: No such file or directory in /home/hostingg/public_html/accionesjudiciales/dashboard/index.php on line 156
+[23-Sep-2019 15:37:38 America/Santiago] PHP Warning:  include(): Failed opening 'themes/list-articulos.php' for inclusion (include_path='.:/opt/cpanel/ea-php55/root/usr/share/pear') in /home/hostingg/public_html/accionesjudiciales/dashboard/index.php on line 156
+[23-Sep-2019 15:37:39 America/Santiago] PHP Notice:  Undefined variable: title in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/list-servicios.php on line 38
+[23-Sep-2019 15:37:39 America/Santiago] PHP Notice:  Undefined variable: title in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/list-servicios.php on line 48
+[23-Sep-2019 15:37:43 America/Santiago] PHP Warning:  include(themes/list-articulos.php): failed to open stream: No such file or directory in /home/hostingg/public_html/accionesjudiciales/dashboard/index.php on line 156
+[23-Sep-2019 15:37:43 America/Santiago] PHP Warning:  include(themes/list-articulos.php): failed to open stream: No such file or directory in /home/hostingg/public_html/accionesjudiciales/dashboard/index.php on line 156
+[23-Sep-2019 15:37:43 America/Santiago] PHP Warning:  include(): Failed opening 'themes/list-articulos.php' for inclusion (include_path='.:/opt/cpanel/ea-php55/root/usr/share/pear') in /home/hostingg/public_html/accionesjudiciales/dashboard/index.php on line 156
+[23-Sep-2019 15:38:20 America/Santiago] PHP Warning:  PDOStatement::execute(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hostingg_accionesjudiciales.PostRelacionados' doesn't exist in /home/hostingg/public_html/accionesjudiciales/dashboard/class/class_panel.php on line 463
+[23-Sep-2019 15:38:20 America/Santiago] PHP Warning:  PDOStatement::execute(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hostingg_accionesjudiciales.PostRelacionados' doesn't exist in /home/hostingg/public_html/accionesjudiciales/dashboard/class/class_panel.php on line 463
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: titulo_h1 in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 80
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: titulo_h1 in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 91
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: url in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 92
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: url in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 92
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: contenido in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 96
+[23-Sep-2019 15:38:20 America/Santiago] PHP Warning:  PDOStatement::execute(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hostingg_accionesjudiciales.PostRelacionados' doesn't exist in /home/hostingg/public_html/accionesjudiciales/dashboard/class/class_panel.php on line 463
+[23-Sep-2019 15:38:20 America/Santiago] PHP Warning:  PDOStatement::execute(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hostingg_accionesjudiciales.PostRelacionados' doesn't exist in /home/hostingg/public_html/accionesjudiciales/dashboard/class/class_panel.php on line 463
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: title in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 174
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: metaseo in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 176
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: kw in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 178
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: tipo in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 196
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: tipo in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 197
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: estado in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 206
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: estado in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 207
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: estado in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 208
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: estado in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 209
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:20 America/Santiago] PHP Notice:  Undefined variable: padre_id in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/editar-pagina.php on line 223
+[23-Sep-2019 15:38:23 America/Santiago] PHP Notice:  Undefined variable: title in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/list-servicios.php on line 38
+[23-Sep-2019 15:38:23 America/Santiago] PHP Notice:  Undefined variable: title in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/list-servicios.php on line 48
+[23-Sep-2019 15:38:25 America/Santiago] PHP Notice:  Undefined variable: title in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/list-servicios.php on line 38
+[23-Sep-2019 15:38:25 America/Santiago] PHP Notice:  Undefined variable: title in /home/hostingg/public_html/accionesjudiciales/dashboard/themes/list-servicios.php on line 48
+[08-Oct-2019 07:19:35 America/Santiago] PHP Notice:  Undefined index: user_nombre in /home/hostingg/public_html/accionesjudiciales/dashboard/inc/_barra_top.php on line 129
+[08-Oct-2019 07:31:42 America/Santiago] PHP Notice:  Undefined index: user_nombre in /home/hostingg/public_html/accionesjudiciales/dashboard/inc/_barra_top.php on line 129
+[08-Oct-2019 21:50:51 America/Santiago] PHP Notice:  Undefined index: user_nombre in /home/hostingg/public_html/accionesjudiciales/dashboard/inc/_barra_top.php on line 129
+[08-Oct-2019 22:13:50 America/Santiago] PHP Notice:  Undefined index: user_nombre in /home/hostingg/public_html/accionesjudiciales/dashboard/inc/_barra_top.php on line 129
+[10-Oct-2019 20:20:18 America/Santiago] PHP Notice:  Undefined index: user_nombre in /home/hostingg/public_html/accionesjudiciales/dashboard/inc/_barra_top.php on line 129
+[13-Oct-2019 00:45:38 America/Santiago] PHP Notice:  Undefined index: user_nombre in /home/hostingg/public_html/accionesjudiciales/dashboard/inc/_barra_top.php on line 129
+[13-Oct-2019 01:04:54 America/Santiago] PHP Notice:  Undefined index: user_nombre in /home/hostingg/public_html/accionesjudiciales/dashboard/inc/_barra_top.php on line 129
+[14-Oct-2019 20:34:00 America/Santiago] PHP Notice:  Undefined index: user_nombre in /home/hostingg/public_html/accionesjudiciales/dashboard/inc/_barra_top.php on line 129
+[16-Oct-2019 03:34:49 America/Santiago] PHP Notice:  Undefined index: user_nombre in /home/hostingg/public_html/accionesjudiciales/dashboard/inc/_barra_top.php on line 129
+[17-Oct-2019 23:18:17 America/Santiago] PHP Notice:  Undefined index: user_nombre in /home/hostingg/public_html/accionesjudiciales/dashboard/inc/_barra_top.php on line 129
+[18-Oct-2019 14:19:25 America/Santiago] PHP Notice:  Undefined index: user_nombre in /home/hostingg/public_html/accionesjudiciales/dashboard/inc/_barra_top.php on line 129

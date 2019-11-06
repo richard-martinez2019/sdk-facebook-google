@@ -1,0 +1,66 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # #
+# SSL
+# # # # # # # # # # # # # # # # # # # # # # # # # # #
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # #
+# URL AMIGABLES DEPENDIENDO DEL INDEX
+# # # # # # # # # # # # # # # # # # # # # # # # # # #
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /
+	RewriteRule ^index\.php$ - [L]
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule . /index.php [L]
+</IfModule>
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # #
+# SEGURIDAD
+# # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+# Evitar listado de Directorios
+Options All -Indexes
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # #
+# ERROR 404
+# # # # # # # # # # # # # # # # # # # # # # # # # # #
+ErrorDocument 404 /404/
+
+
+RewriteEngine on
+
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+
+<Limit GET POST>
+order deny,allow
+deny from all
+allow from all
+</Limit>
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteRule .*\.()$ - [F,NC]
+
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteRule .*\.()$ - [F,NC]
