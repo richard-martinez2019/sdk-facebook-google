@@ -8,6 +8,8 @@ if(!isset($_SESSION['access_token'])){
 
 /*include 'database.php';
 
+echo 'Hola';
+
 $id_facebook = $_SESSION['userData']['id'];
 $imagen = $_SESSION['userData']['picture']['url'];
 $nombre = $_SESSION['userData']['first_name'];
